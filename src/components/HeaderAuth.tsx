@@ -3,7 +3,7 @@
 import React from 'react'
 import SingIn from './SingIn'
 import SingOut from './SingOut'
-import { Avatar, Popover, PopoverContent, PopoverTrigger, Spinner } from "@nextui-org/react"
+import { Avatar, Popover, PopoverContent, PopoverTrigger } from "@nextui-org/react"
 import { useSession } from "next-auth/react"
 
 const HeaderAuth = () => {

@@ -1,14 +1,17 @@
 
 import paths from "@/path"
+import FormCreatePost from "@/components/FormCreatePost"
+import ListPost from "@/components/ListPost"
 
-export default async function Home() {
 
-  console.log("pathh", paths)
+export default function Home() {
 
   return (
     <div className='flex gap-x-3 px-4 py-4'>
-
-      {/* <Link href={paths.topicToShow("test")}> Test </Link> */}
+      <div className="flex justify-between w-full">
+        <ListPost />
+        <FormCreatePost />
+      </div>
     </div>
 
   )
